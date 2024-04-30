@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landingpage</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <header class="headerContainer">
-        <img class="headerContainer__logo" src="#" alt="Logo">
+        <img class="headerContainer__logo" src="./img/logo.svg" alt="Logo" height="50px" width="50px">
         <nav>
             <ul class="headerContainer__navpoints">
                 <li class="headerContainer__navpoints__navpoint"><a href="#">header link one</a></li>
@@ -19,16 +20,51 @@
     <div class="bannerContainer">
         <div class="bannerContainer__content">
             <h1 class="bannerContainer__content__h1">This website is awesome</h1>
-            <p lass="bannerContainer__content__p">This website has some subtext that goes here under the main title. Its's a smaller font and the color is lower contrast</p>
-            <div lass="bannerContainer__content_button">Sign up</div>
+            <p class="bannerContainer__content__p">This website has some subtext that goes here under the main title. Its's a smaller font and the color is lower contrast</p>
+            <div class="bannerContainer__content__button">Sign up</div>
         </div>
         <div class="bannerContainer__img">
-            <img class="heroimg" src="#" alt="heroimg" height="320" width="320">
+            <img class="heroimg" src="./img/banner.jpg" alt="heroimg" height="320" width="320">
         </div>
     </div>
-    <div class="contentContainer"><!--tbd.--></div>
-    <div class="quoteContainer"><!--tbd.--></div>
-    <div class="ctaContainer"><!--tbd.--></div>
-    <footer class="footer"><!--tbd.--></footer>
+    <div class="contentContainer">
+        <h2 class="contentContainer__h2"></h2>
+        <div class="contentContainer__cards">
+            <div class="contentContainer__cards__card">
+                <img class="contentContainer__cards__card__img" src="./img/coffee1.jpg" alt="Card1Image" height="60px" widht="60px">
+            </div>
+            <p class="contentContainer__cards__card__img">this is some subtext under an illustration or image</p>
+            <div class="contentContainer__cards__card">
+                <img class="contentContainer__cards__card__img" src="./img/coffee2.jpg" alt="Card2Image" height="60px" widht="60px">
+            </div>
+            <p class="contentContainer__cards__card__img">this is some subtext under an illustration or image</p>
+            <div class="contentContainer__cards__card">
+                <img class="contentContainer__cards__card__img" src="./img/coffee3.jpg" alt="Card3Image" height="60px" widht="60px">
+            </div>
+            <p class="contentContainer__cards__card__img">this is some subtext under an illustration or image</p>
+            <div class="contentContainer__cards__card">
+                <img class="contentContainer__cards__card__img" src="img/coffee4.jpg" alt="Card4Image" height="60px" widht="60px">
+            </div>
+            <p class="contentContainer__cards__card__img">this is some subtext under an illustration or image</p>
+        </div>
+    </div>
+    <div class="quoteContainer">
+        <p class="quoteContainer__quote">This is an inspiring quote, or a testimonial from a 
+            customer. Maybe it's just filling up space, or maybe
+            people will actually read it. Who knows? All I know
+            is that it looks nice.
+        </p>
+        <p class="quoteContainer__autor">-Thor, God of Thunder</p>
+    </div>
+    <div class="ctaContainer">
+        <div class="ctaContainer__left">
+            <h2 class="ctaContainer__left__h2">Call to action! IT's time!</h2>
+            <p class="ctaContainer__left__p">Sign up for our product by clicking that button right over there!</p>
+        </div>
+        <div class="ctaContainer__right">
+            <div class="ctaContainer__right__button">Sign up</div>
+        </div>
+    </div>
+    <footer class="footer">Copyright © The Odin Project 2021</footer>
 </body>
 </html>

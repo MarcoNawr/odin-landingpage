@@ -2,4 +2,89 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box; /*to make the width = width + padding + border*/
+    list-style: none;
+}
+/* ##############################
+    Layout
+############################## */
+
+body{
+    /* display: flex;               
+    flex-direction: column;   ==> Das zu tun ist überflüssig! Da die Blockelemente auch ohne eine flexbox mit direction Column so angeordent werden */
+}
+
+
+
+/* ##############################
+    headerContainer
+############################## */
+
+.headerContainer{
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.headerContainer__logo{
+    margin-left: 5rem;
+    margin-right: 2em;
+    padding: 0.2em;
+
+    filter: invert(1); /*macht das Logo Weiß*/
+}
+.headerContainer__navpoints{
+    margin-right: 5rem;
+    display: flex;
+    gap: 2em;
+}
+
+.headerContainer__navpoints__navpoint > a:link, a:visited, a:hover, a:focus, a:active{
+    text-decoration: none; 
+    color: white;
+}
+
+/* ##############################
+    bannerContainer
+############################## */
+.bannerContainer{
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+}
+.bannerContainer__content{
+    flex: 1 1 0;
+    margin-left: 5rem;
+    margin-right: 2em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    color: white;
+
+    align-self: center;
+}
+.bannerContainer__content__h1{
+    font-weight:bolder;
+
+}
+.bannerContainer__content__button{  
+    padding: 10px;
+    background-color: #3882F6;
+    margin: 20px;
+    text-align: center;
+    border-radius: 2em;
+}
+
+.bannerContainer__img{
+    flex: 3 1 0;
+    margin-right: 5rem;
+    margin-bottom: 2em;
+    margin-top: 2em;
+
+}
+.heroimg{
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+    border-radius: 2em;
+    
 }
