@@ -61,7 +61,7 @@ body{
     margin-right: 2em;
     margin-top: 2em;
     margin-bottom: 2em;
-    color: white;
+    color: #E5E7EB;
 
     align-self: center;
 }
@@ -71,6 +71,7 @@ body{
 
 }
 .bannerContainer__content__p{
+    font-size: 18px;
     margin-bottom: 20px;
 
 }
@@ -94,7 +95,6 @@ body{
     height: 100%;
     object-fit:cover;
     border-radius: 0.5em;
-    
 }
 
 
@@ -103,7 +103,41 @@ body{
     contentContainer
 ############################## */
 
-/* tbd */
+.contentContainer__h2{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    text-align: center;
+    padding: 15px;
+}
+.contentContainer__cards{
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    margin-top: 1em;
+    margin-bottom: 7em;
+}
+.contentContainer__cards__card{
+    background-color: #eef5ff;
+    border-radius: 0.5em;
+    padding: 15px;
+    max-width: 12em;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+}
+.contentContainer__cards__card:hover{
+    background-color: #becfe9;
+}
+
+.contentContainer__cards__card__img{
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+    border-radius: 0.5em;
+}
 
 
 
@@ -147,8 +181,11 @@ body{
 /* ##############################
     footer
 ############################## */
-
-/* tbd */
+.footer{
+    background-color: #1F2937;
+    color: white;
+    text-align: center;
+}
 
 
 
