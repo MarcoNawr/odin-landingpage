@@ -11,6 +11,7 @@
 body{
     /* display: flex;               
     flex-direction: column;   ==> Das zu tun ist überflüssig! Da die Blockelemente auch ohne eine flexbox mit direction Column so angeordent werden */
+    
 }
 
 
@@ -145,14 +146,6 @@ body{
     quoteContainer
 ############################## */
 
-/* tbd */
-
-
-
-/* ##############################
-    ctaContainer
-############################## */
-
 .quoteContainer{
     background-color: #E5E7EB;
     display: flex;
@@ -177,6 +170,36 @@ body{
     margin-bottom: 0.8em;
     margin-left: 250px;
 }
+/* ##############################
+    ctaContainer
+############################## */
+.ctaContainer{
+    background-color: #3882F6;
+    color: white;
+    border-radius: 0.5em;
+    display: flex;
+    margin: 5em 8em 5em 8em;
+    align-items: center;
+}
+.ctaContainer__left{
+    flex: 4 1 0;
+    padding: 0.8em;
+}
+.ctaContainer__right{
+    flex: 1 1 0;
+    text-align: center;
+}
+.ctaContainer__right__button{
+ 
+    max-width: 150px;
+    padding: 5px;
+    border: 2px solid white;
+    border-radius: 0.5em;
+    margin-right: 10px;
+}
+
+
+
 
 /* ##############################
     footer
